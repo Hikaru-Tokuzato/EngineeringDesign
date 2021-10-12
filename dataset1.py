@@ -14,14 +14,14 @@ def true_function(x):
 
     return y
 
-def draw():
+def en1():
     x = np.arange(-1,1,0.1)
     y = np.sin(np.pi * x * 0.8) * 10
     plt.plot(x,y)
     plt.show()
 
 def main():
-    draw()
+    en1()
 
 if __name__ == "__main__":
     main()
