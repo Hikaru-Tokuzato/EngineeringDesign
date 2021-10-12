@@ -2,6 +2,7 @@
 import doctest
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 
 def true_function(x):
 
@@ -16,7 +17,7 @@ def true_function(x):
 
 def en1():
     x = np.arange(-1,1,0.1)
-    y = np.sin(np.pi * x * 0.8) * 10
+    y = true_function(x)
     plt.plot(x,y)
     plt.show()
 
